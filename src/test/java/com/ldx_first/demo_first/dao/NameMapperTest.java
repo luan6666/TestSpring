@@ -32,15 +32,16 @@ public class NameMapperTest {
 
     @Test
     public void insert() throws Exception {
+
     }
 
     @Test
     public void insertSelective() throws Exception {
         Name record = new Name();
-        record.setName("名字1");
-        record.setPassword(123);
-        record.setPhoneNum(110);
-        record.setRemake("第一次");
+        record.setName("名字2");
+        record.setPassword(234);
+        record.setPhoneNum(991);
+        record.setRemake("第二次");
         mapper.insertSelective(record);
     }
 
