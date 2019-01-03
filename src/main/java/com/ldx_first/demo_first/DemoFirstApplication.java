@@ -9,8 +9,12 @@ import org.springframework.context.annotation.ComponentScan;
 @MapperScan(basePackages = {"com.ldx_first.demo_first"})
 @ComponentScan("com.ldx_first.demo_first")
 public class DemoFirstApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(DemoFirstApplication.class, args);
-	}
+    /**
+     * 系统就是从这起来的
+     * @param args
+     */
+    public static void main(String[] args) {
+        SpringApplication.run(DemoFirstApplication.class, args);
+    }
 }
+

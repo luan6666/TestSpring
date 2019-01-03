@@ -10,6 +10,7 @@ import java.beans.PropertyVetoException;
 
 @Configuration
 //配置mybatis mapper的扫描路径
+//这个是数据库的配置文件
 @MapperScan("com.demo_first.config.dao")
 public class dataSourceConfiguration  {
     @Value("${spring.datasource.driver-class-name}")
